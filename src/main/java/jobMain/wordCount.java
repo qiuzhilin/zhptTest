@@ -19,6 +19,7 @@ public class wordCount {
                         .groupBy(0)
                         .sum(1);
         counts.print();
+        counts.print();
         counts.writeAsCsv("D:\\word.csv", "\n", " ");
 
     }
