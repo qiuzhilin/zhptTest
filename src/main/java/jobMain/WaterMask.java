@@ -35,6 +35,7 @@ public class WaterMask  {
                 System.out.println("前："+arr[0]);
                 Thread.sleep(15000);
                 System.out.println("后："+arr[0]);
+                System.out.println("后："+arr[0]);
                 return new Tuple2<String,String>(arr[0],arr[1]);
             }
         }).name("eventime map").setParallelism(5);
