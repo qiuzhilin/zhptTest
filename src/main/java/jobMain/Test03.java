@@ -11,5 +11,6 @@ public class Test03 {
 
         AlterSink alterSink=new AlterSink();
         alerts.addSink(alterSink).setParallelism(1);
+        System.out.println("");
     }
 }
